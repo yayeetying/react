@@ -14,19 +14,56 @@
   <head>
     <meta charset="utf-8">
     <style>
-      .red   {color : #ff0000;}
-      .green {color : #00ff00;}
-      .blue  {color : #0000ff;}
+      table, th, tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+      table.center{
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
   </head>
 
   <body>
 
     <h1> Intro to React </h1>
-    <p> https://www.youtube.com/watch?v=nwTm1I1Q4cQ </p>
+    <!-- <p> https://www.youtube.com/watch?v=nwTm1I1Q4cQ </p> -->
     <ul>
-      <li> ree </li>
+      <li> Javascript library </li>
+      <li> build website's user interface </li>
+      <li> open-source, free, and popular! </li>
+      <li> maintained by Facebook; used by Instagram, Discord, Netflix </li>
     </ul>
+
+    <h2> React is like an HTML rendering engine </h2>
+    <p> write Javascript to describe your page's HTML, and React changes
+    the page's DOM accordingly </p>
+
+    <br>
+    <table class="center">
+      <tr>
+        <th> pros </th>
+        <th> cons </th>
+      </tr>
+      <tr>
+        <th>
+          <ul>
+            <li> no flipping between HTML and JS files </li>
+            <li> allows for modular code through "components"</li>
+            <li> don't need to manually change DOM </li>
+          </ul>
+        </th>
+        <th>
+          <ul>
+            <li> learning curve for developer </li>
+            <li> extra abstraction (React renders HTML) --> slower </li>
+            <li> React ~38kb library </li>
+          </ul>
+        </th>
+      </tr>
+    </table>
 
   </body>
 </html>
