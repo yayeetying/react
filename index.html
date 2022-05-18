@@ -76,9 +76,21 @@
     <h2> Render HTML </h2>
     <p> To render HTML with React, we need to create a rendering root that tells
     React this is where the HTML will be. This root can be created with a &lt;div&gt;,
-    &lt;p&gt;, or any other tag.
+    &lt;p&gt;, or any other tag, using ReactDom.createRoot()
     <!-- &lt;p&gt; makes <p> -->
-    <h3> ReactDom.createRoot() </h3>
+    <br>
+    <h2> ReactDom.createRoot() </h2>
+    <ul>
+      <li> function takes one input: a DOM node, ie. "root" </li>
+      <li> returns JS object </li>
+    </ul>
+
+    <h2> root.render() </h2>
+    <ul>
+      <li> takes one input: a React Element </li>
+      <li> elements created with <code> React.createElement() </code> </li>
+    </ul>
+
 
   </body>
 </html>
